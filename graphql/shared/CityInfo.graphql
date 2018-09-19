@@ -1,0 +1,39 @@
+"""城市基础数据"""
+type CityInfo {
+  """城市三字码"""
+  Code: String
+
+  """城市ID"""
+  ID: Int!
+
+  """城市中文名"""
+  Name: String
+
+  """城市英文名"""
+  Name_en: String
+
+  """城市中文名拼音"""
+  NamePinyin: String
+
+  """省份ID"""
+  ProvinceID: Int!
+
+  """国家ID"""
+  CountryID: Int!
+
+  """国家二字码"""
+  CountryCode: String
+  CountryCode_OAG: String
+
+  """国家中文名"""
+  CountryName: String
+
+  """国家英文名"""
+  CountryEname: String
+  FltCityName: String
+  FltCityEname: String
+  HtlCityID: Int!
+  HtlCityName: String
+  HtlCityEname: String
+  ICAOCountryCode: String
+}

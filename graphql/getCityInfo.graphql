@@ -1,0 +1,7 @@
+type Query {
+  """根据城市三字码获取城市信息"""
+  getCityInfo (
+    "城市三字码"
+    code: String!
+  ): CityInfo
+}
